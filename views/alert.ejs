@@ -1,0 +1,11 @@
+<!--显示成功或错误信息-->
+<% if(success && !error){ %>
+<div class="alert">
+    <%= success %>
+</div>
+<% } %>
+<% if(error && !success ){ %>
+<div class="alert">
+    <%= error %>
+</div>
+<% } %>

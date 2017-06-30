@@ -1,0 +1,7 @@
+<%- include header.ejs %>
+<%- include alert.ejs %>
+<% if(user){ %>
+<%include say.ejs %><!--替换了书中的partial函数-->
+<% } %>
+<%- include posts.ejs %><!--替换了书中的partial函数-->
+<%- include footer.ejs %>
